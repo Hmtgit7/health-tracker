@@ -17,17 +17,43 @@ body {
   background-color: rgb(var(--background-rgb));
 }
 
-/* Ensure text is visible in all modes */
-.dark .dark\:text-white {
-  color: white !important;
-}
-
-.dark .dark\:text-gray-400 {
-  color: rgb(156, 163, 175) !important;
-}
-
-.dark .dark\:text-gray-300 {
-  color: rgb(209, 213, 219) !important;
+/* Add specific dark mode text color overrides to ensure visibility */
+@layer utilities {
+  .dark\:text-white {
+    color: white !important;
+  }
+  
+  .dark\:text-gray-400 {
+    color: rgb(156, 163, 175) !important;
+  }
+  
+  .dark\:text-gray-300 {
+    color: rgb(209, 213, 219) !important;
+  }
+  
+  .dark\:text-gray-200 {
+    color: rgb(229, 231, 235) !important;
+  }
+  
+  .dark\:text-gray-100 {
+    color: rgb(243, 244, 246) !important;
+  }
+  
+  .dark\:text-green-400 {
+    color: rgb(74, 222, 128) !important;
+  }
+  
+  .dark\:text-blue-400 {
+    color: rgb(96, 165, 250) !important;
+  }
+  
+  .dark\:text-emerald-400 {
+    color: rgb(52, 211, 153) !important;
+  }
+  
+  .dark\:text-yellow-300 {
+    color: rgb(253, 224, 71) !important;
+  }
 }
 
 /* Custom scrollbar */

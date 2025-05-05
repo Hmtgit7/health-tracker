@@ -1,9 +1,12 @@
-// tailwind.config.js
-const config = {
+import type { Config } from "tailwindcss";
+
+const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/hooks/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/context/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   darkMode: "class",
   theme: {
@@ -26,9 +29,23 @@ const config = {
       animation: {
         "pulse-slow": "pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       },
+      // Add specific text colors for dark mode
+      textColor: {
+        dark: {
+          primary: "white",
+          secondary: "#d1d5db",
+          tertiary: "#9ca3af",
+        },
+      },
+      backgroundColor: {
+        dark: {
+          primary: "#111827",
+          secondary: "#1f2937",
+          tertiary: "#374151",
+        },
+      },
     },
   },
   plugins: [],
 };
-
 export default config;
