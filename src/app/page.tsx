@@ -17,8 +17,6 @@ import SettingsModal from "../components/modals/SettingsModal";
 import ProfileModal from "../components/modals/ProfileModal";
 import AddNewModal from "../components/modals/AddNewModal";
 import LoadingScreen from "../components/ui/LoadingScreen";
-import { useHabits } from "../context/HabitContext";
-import { useMeals } from "../context/MealContext";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("dashboard");
