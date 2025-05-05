@@ -2,7 +2,7 @@
 
 A modern, feature-rich health and habit tracking application built with Next.js, TypeScript, and Tailwind CSS.
 
-![NEWME Health Tracker Preview](https://images.unsplash.com/photo-1607962837359-5e7e89f86776?q=80&w=1200&auto=format)
+![NEWME Health Tracker Preview](./public/image.png)
 
 ## Features
 
