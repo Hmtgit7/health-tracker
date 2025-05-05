@@ -30,11 +30,11 @@ Check out the live application: [NEWME Health Tracker](https://health-tracker-si
 The main dashboard provides a quick glance at all your health metrics and daily progress.
 
 ### Habit Tracking
-![Habit Tracking](./public/Habit.png)
+![Habit Tracking](./public/habit.png)
 Monitor your daily habits with intuitive progress bars and achievement streaks.
 
 ### Meal Planning
-![Meal Planning](./public/Meal.png)
+![Meal Planning](./public/Meals.png)
 Track your meals and nutrition with detailed macronutrient breakdown.
 
 ### Activity Analytics
@@ -46,15 +46,19 @@ Visualize your physical activities and workout progress over time.
 Monitor your sleep patterns and quality with detailed insights.
 
 ### Dark Mode
-![Dark Mode](./public/Dark.png)
+![Dark Mode](./public/Dashboard.png)
 Easy on the eyes with a beautiful dark theme option.
+
+### Light Mode
+![Light Mode](./public/Light.png)
+Easy on the eyes with a beautiful light theme option.
 
 ### Profile Management
 ![Profile](./public/Profile.png)
 Comprehensive profile management with detailed statistics and achievements.
 
 ### Settings Management
-![Settings](./public/Settings.png)
+![Settings](./public/Setting.png)
 Comprehensive settings management with detailed statistics and achievements.
 
 ## 🚀 Tech Stack
@@ -202,7 +206,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👨‍💻 Author
 
-- **Sachin G** - [Hmtgit7](https://github.com/Hmtgit7)
+- **Hemant Gehlod** - [Hmtgit7](https://github.com/Hmtgit7)
 
 ## 🙏 Acknowledgements
 
